@@ -5,5 +5,14 @@
   <title>Update 0: the testing phase</title>
 </head>
 <body>
-  
+  <div id = "worPoints">0</div>
+  <div id = "worButton">worship him</div>
+  <script>
+    let counter = 0;
+
+    document.getElementById('worButton').onclick = () => {
+      counter = counter += 1;
+      document.getElementById('worPoints').innerText = counter;
+    };
+      </script>
 </body>
